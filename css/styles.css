@@ -30,6 +30,7 @@
     grid-row: 100px auto;
     padding: 15px 20px;
     border-radius: 8px;
+    box-shadow: 0px 5px 90px hsl(217, 12%, 41%) ;
 }
 .avatar_name{
     /*background: gray;*/
