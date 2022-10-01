@@ -113,3 +113,68 @@
 .kira *{
     color: hsl(217, 19%, 35%) !important;
 }
+
+
+
+@media (min-width: 400px){
+        .grid-container{
+        display: grid;
+        margin: 30px auto;
+        width: 80%;
+        height: 600px;
+        background:hsl(210, 46%, 95%)
+        /*background: green;*/
+        /*justify-content: center;
+        align-items: center;*/
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 25% 25% 25% 25%;
+        /*gap: 20px;*/
+        grid-template-areas: 
+        "daniel   daniel  jonathan kira"
+        "jeanette patrick patrick kira";
+        }
+    
+        .card{
+            margin: 5px auto;
+            /*outline: 2px solid #000;*/
+            display: grid;
+            height: 100%;
+            width: 100%;
+        }
+
+        .daniel{
+            grid-area: daniel;
+        }
+        .jonathan{
+             background-color:hsl(217, 19%, 35%);
+             grid-area: jonathan;
+        }
+        .jeanette{
+            background-color: hsl(0, 0%, 100%);
+            grid-area: jeanette;
+        }
+        .patrick{
+            background-color: hsl(219, 29%, 14%);
+            grid-area: patrick;
+        }
+        .kira{
+            background-color: hsl(0, 0%, 100%);
+            grid-area: kira;
+        }
+        
+        .content{
+            margin-top: 2px;
+            /*background-color: bisque;*/
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            /*gap: 15px;*/
+            padding: 5px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+        }
+    
+}
+
+        
+
+
