@@ -160,8 +160,13 @@
         .kira{
             background-color: hsl(0, 0%, 100%);
             grid-area: kira;
+
         }
-        
+        .kira .content{
+            background-color: hsl(0, 0%, 100%);
+            margin-bottom: auto;
+            
+        }        
         .content{
             margin-top: 2px;
             /*background-color: bisque;*/
@@ -170,9 +175,29 @@
             justify-content: center;
             /*gap: 15px;*/
             padding: 5px;
+            margin-bottom: auto;
             font-family: 'Barlow Semi Condensed', sans-serif;
         }
-    
+        
+        .avatar{
+            /*outline: 1px solid #000;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .avatar img{
+            border-radius: 50%;
+            border: 1px solid #fff;
+            width: 50px;
+        }
+        .name{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 5;
+            color: #fff;
+            font-weight: 500;
+        }
 }
 
         
